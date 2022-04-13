@@ -1,0 +1,22 @@
+
+footer{
+    background: var(--preto);
+    border-top: solid 8px #222;
+    padding: 2rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer span{
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+footer p{
+    color: var(--cinza);
+    font-size: 13px;
+    margin-top: 15px;
+}

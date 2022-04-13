@@ -1,0 +1,41 @@
+.gradient{
+    background: rgba(0,0,0,0.4);
+    background-image: 
+    linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 75%,rgba(0,0,0,.8) 100%);
+    top: 0%;
+    left: 0;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+}
+main{
+    height: 690px;
+    background: url(../images/bg.jpg);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.main-child{
+    z-index: 1;
+    text-align: center;
+    justify-items: center;
+    display: grid; 
+}
+
+main h1{
+    font-size: 50px;
+    max-width: 700px;
+    padding-bottom: 15px;
+}
+
+main span{
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+main p{
+    font-size: 19px;
+    padding-bottom: 17px;
+}

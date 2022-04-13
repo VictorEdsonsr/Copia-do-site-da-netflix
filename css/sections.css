@@ -1,0 +1,54 @@
+
+
+.section{
+    padding: 1.1rem 0;
+    background: var(--preto);
+    border-top: solid 8px #222;
+}
+
+.section h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.section p{
+    font-size: 26px;
+}
+
+.img-tv{
+    position: relative;
+}
+
+.img-tv img{
+    position: relative;
+    z-index: 10;
+}
+
+.video-tv{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 400px;
+}
+
+.download .grid > div:first-child{
+    order: 2;
+}
+
+.download .img-tv{
+    order: 1;
+}
+
+.child .grid > div:first-child{
+    order: 2;
+}
+
+.child .img-tv{
+    order: 1;
+}
+
+.device .video-tv{
+    top: 70px;
+    left: 100px;
+    width: 340px;
+}
